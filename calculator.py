@@ -11,9 +11,6 @@ def calc(str):
         #숫자일때
     
 
-
-
-
 def hungry(num): 
     if num==0 :
         print(num)
