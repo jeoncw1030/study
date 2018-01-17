@@ -1,0 +1,87 @@
+
+/*
+#form_login {
+    background-color: black;
+    font: white;
+    font-family: sans-serif;
+    display: table;
+    width: 100%;
+ }
+ #login {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+ }
+*/ 
+
+/*
+규칙
+1. 모든 칸/버튼 가운데 정렬
+2. 사용 색상 : ultra-violet & white
+3. 최소 기능 : ID, PW, Submit button, Signup, Find password
+4. 추가하고 싶은 부분 : 소셜 로그인? (페북이나 구글 계정으로 로그인 하는 거), 입력란 hover, 
+*/
+
+body{
+    background-color: #7f1ae5;/* rgb(235, 236, 236);*/
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#form_login {
+    width:500px;
+    height: 430px;
+    background-color: white;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color:#7f1ae5;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #7f1ae5;
+}
+
+ input {
+    width: 375px;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color:white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left : 25px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+input:hover {
+    border-color: #7f1ae5;
+    
+}
+
+button {
+    width: 405px;
+    height: 45px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-color: rgb(236, 236, 236);
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+button:hover {
+    border-color: #7f1ae5;
+}
